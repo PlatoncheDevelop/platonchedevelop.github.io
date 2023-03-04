@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://petrostudio.net/wp-content/uploads/background.jpg');
-  color: #FF0000;
-  font-family: 'Roboto', sans-serif;
-}
+  background-image: url("cyberpunk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
