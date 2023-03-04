@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Загрузка...</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <div class="loader-wrapper">
+    <img src="loadingscreen.gif" alt="Загрузка...">
+  </div>
+  <div class="content-wrapper">
+    <h1>Добро пожаловать на наш сайт!</h1>
+    <p>Нажмите на кнопку, чтобы перейти на главную страницу:</p>
+    <button onclick="location.href='main.html'">Перейти на главную</button>
+  </div>
+  <script>
+    $(window).on('load', function() {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
+</body>
+</html>
