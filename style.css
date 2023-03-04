@@ -1,5 +1,40 @@
-body {
-  background-image: url("cyberpunk.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-} 
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  z-index: 9999;
+}
+.loader-wrapper img {
+  width: 150px;
+  height: 150px;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #0072c6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
