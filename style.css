@@ -1,0 +1,25 @@
+.PetroStudio { 
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    background: url("https://images.pexels.com/photos/374616/pexels-photo-374616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+    background-size: cover;
+    color: #ff0000, #00ff00, #0000ff;
+}
+.about {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+}
+.footer { 
+    font-size: 12px; 
+    font-family: sans-serif; 
+    text-align: center; 
+    background-color: #ffffff; 
+    color: #000000; 
+} 
+.logo { 
+    width: 50px; 
+    height: 50px; 
+}
